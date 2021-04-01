@@ -1,0 +1,16 @@
+body {
+  margin-left: 100px;
+  padding: 5px;
+}
+
+li input {
+  display: none;
+}
+
+.edit span {
+  display: none;
+}
+
+.edit input {
+  display: initial;
+}
