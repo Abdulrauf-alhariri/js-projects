@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maze</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="message-container hidden">
+        <div class="message">
+          <h1>congratulations!</h1>
+          <p>You're Done</p>
+          <p class="Moves"></p>
+          <input type="button" value="Cool!" class="btn btn-cool" />
+        </div>
+      </div>
+      <div class="settings">
+        <select class="game-level">
+          <option value="10">Easy</option>
+          <option value="20">Medium</option>
+          <option value="30">Hard</option>
+          <option value="40">Extreme</option>
+        </select>
+        <input type="button" value="Start" class="btn btn-start" />
+      </div>
+      <canvas id="canvas"></canvas>
+      <img id="cucumber" src="cucumber.png" alt="" />
+      <img id="cabbage" src="cabbage.png" alt="" />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
