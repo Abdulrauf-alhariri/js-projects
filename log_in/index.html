@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+    <link rel="stylesheet" href="../normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="hi">
+    <div class="container">
+      <div class="view">
+        <a id="greet" href="#">Welcome</a>
+        <a id="application" href="#">Application</a>
+      </div>
+      <div class="log_in">
+        <div class="line line-one"></div>
+        <div class="line line-two"></div>
+
+        <form id="log_in-form">
+          <div class="log_in-label">
+            <label for="email">Email</label>
+            <input id="email" type="email" />
+          </div>
+          <div class="log_in-label">
+            <label for="password">Password</label>
+            <input id="password" type="password" />
+          </div>
+          <button id="submit" type="submit" form="log_in-form" value="Submit">
+            Submit
+          </button>
+          <button id="clear">Clear</button>
+        </form>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
